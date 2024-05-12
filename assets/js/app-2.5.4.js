@@ -48,6 +48,7 @@ window.onload = function() {
   };
   var openSpeedtestShow = function() {
     this.YourIP = _("YourIP");
+    // console.log(yourIP);
     this.ipDesk = _("ipDesk");
     this.ipMob = _("ipMob");
     this.downSymbolDesk = _("downSymbolDesk");
@@ -319,6 +320,7 @@ window.onload = function() {
       this.upRestxt.el.textContent = upload.toFixed(1);
       this.upRestxt.el.style.fontSize = "18px";
     }
+    // console.log(upload);
   };
   openSpeedtestShow.prototype.pingResults = function(data, Display) {
     var ShowData = data;
@@ -332,6 +334,7 @@ window.onload = function() {
         }
         this.pingResult.el.textContent = ShowData;
         this.pingMobres.el.textContent = ShowData;
+        // console.log(ShowData);
       }
     }
     if (Display === "Error") {
@@ -353,6 +356,7 @@ window.onload = function() {
       this.downResult.el.textContent = download.toFixed(1);
       this.downResult.el.style.fontSize = "18px";
     }
+    // console.log("HI");
   };
   openSpeedtestShow.prototype.jitterResult = function(data, Display) {
     var ShowData = data;
