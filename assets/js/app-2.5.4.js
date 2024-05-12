@@ -1,11 +1,3 @@
-/*
-     Official Website : https://OpenSpeedTest.COM | Email: support@openspeedtest.com
-     Developed by : Vishnu | https://Vishnu.Pro | Email : me@vishnu.pro 
-     Like this Project? Please Donate NOW & Keep us Alive -> https://go.openspeedtest.com/Donate
-    Speed Test by OpenSpeedTest™️ is Free and Open-Source Software (FOSS) with MIT License.
-    Read full license terms @ http://go.openspeedtest.com/License
-    If you have any Questions, ideas or Comments Please Send it via -> https://go.openspeedtest.com/SendMessage
-*/ 
 window.onload = function() {
   var appSVG = document.getElementById("OpenSpeedTest-UI");
   appSVG.parentNode.replaceChild(appSVG.contentDocument.documentElement, appSVG);
